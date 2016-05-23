@@ -1,1 +1,1 @@
-auth 10.68.147.253/CIFSShare root freenas
+auth $IP_ADDR/$SHARE_NAME $USERNAME $PASSWORD
