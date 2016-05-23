@@ -14,4 +14,4 @@ chmod 600 /app/smbnetfs.cf
 /app/local/smbnetfs  /app/mnt -o config=/app/smbnetfs.cf
 sleep 3
 rm -fr /app/storage
-ln -s /app/mnt/10.68.147.253/CIFSShare /app/storage
+ln -s /app/mnt/$IP_ADDR/CIFSShare /app/storage
