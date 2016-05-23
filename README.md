@@ -17,3 +17,6 @@ The repo contains a sample JSP application, a script in profile.d directory (to 
 * Find below example changes for 01-smbfs.sh
 ##
 `ln -s /app/mnt/10.68.147.253/CIFSShare /app/storage`
+
+## Further Changes
+* The sample JSP application doesn't utilize any files in the share. That is the next goal for this repo. 
